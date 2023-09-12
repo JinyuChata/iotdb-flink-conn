@@ -68,6 +68,7 @@ public class FlinkIoTDBSink {
 
                 context.collect(tuple);
                 Thread.sleep(1000);
+                System.out.println("Send Entry..");
             }
         }
 
